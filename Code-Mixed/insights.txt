@@ -1,0 +1,12 @@
+After CountVectorizer, COnverting to .toarray() made the accuracy lower and also the Linear and rbf SVM ran very very slow. Do not know why>
+
+Preprocessing se words kam ho rhe hai but the data is small toh that is an issue.
+
+
+
+Increasing the n in ngrams extraction, the recall of one class is low, imbalance increases.
+
+
+using custom stopwords reduces performance
+
+removing usernames from text would lead to loss of info as hate is directed after 
