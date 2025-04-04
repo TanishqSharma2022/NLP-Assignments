@@ -1,0 +1,19 @@
+# Model Configuration
+VOCAB_SIZE = len(vocab) + 1  # Add 1 for unknown words
+EMBEDDING_DIM = 100  # As required
+HIDDEN_DIM = 64  # Hidden layer size
+BATCH_SIZE = 128  # Adjustable
+EPOCHS = 50  # Number of training epochs
+LR = 0.001  # Learning rate
+
+# Model parameters
+embed_dim = 100  # Word embedding size
+model = Word2Vec(vocab_size, embed_dim)
+
+
+WINDOW_SIZE = 3
+NUM_NEGATIVE_SAMPLES = 3
+
+TOTAL_WORDS = 73331
+TRAINING_PAIRS = 95639 
+VOCAB_LENGTH = 17305
