@@ -1,6 +1,8 @@
 # Word2Vec 
 
 
+THE GITHUB REPOSITORY FOR THIS ASSIGNMENT : https://github.com/TanishqSharma2022/NLP-Assignments/tree/main/Word2Vec/submission
+
 This contains word2vec algorithm to create vector embeddings for any dataset and an FFNN classifier to classify hate, humor and sarcasm. 
 
 
